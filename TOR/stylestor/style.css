@@ -7,7 +7,7 @@ body, html {
   width: 100%;
   height: 100%;
   font-family: fantasy, 'Times New Roman', Times, serif, sans-serif;
-  color: rgb(157, 1, 5);
+  color: rgb(192, 220, 231);
 }
 
 #fundo-externo {
@@ -38,8 +38,15 @@ body, html {
 }
 
 #insert-top {
+  position: fixed;
+  left: 564px;
+  top: 340px;
+}
+
+#insert-top {
   font-style: oblique;
   font-size: 28px;
+  color: rgb(157, 1, 5);
 }
 
 #table-model {
@@ -60,6 +67,10 @@ th {
 td {
   text-align: center;
 }
+
+td {
+  font-weight: bolder;
+}
    
 table {
   border-collapse: collapse;
@@ -74,12 +85,7 @@ table {
   font-family: Luminary, fantasy;
   font-weight: 900;
   font-size: 23px;
-}
-
-#insert-top {
-  position: fixed;
-  left: 550px;
-  top: 340px;
+  color: rgb(157, 1, 5);
 }
 
 @media (min-width: 700px){
