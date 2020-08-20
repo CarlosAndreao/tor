@@ -38,9 +38,12 @@ body, html {
 }
 
 #insert-top {
-  position: fixed;
-  left: 564px;
-  top: 340px;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  width: 560px;
+  padding: 20px;
+  margin-left: -300px;
 }
 
 #insert-top {
